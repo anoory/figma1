@@ -1,0 +1,98 @@
+body{
+   background-color:white;
+   color: black;
+}
+
+.site-name{
+   text-align: center;
+   font-family: 'Lobster', sans-serif;
+}
+
+.fa-face-smile{
+   color: chartreuse;
+}
+
+.info-container{
+   background-color: rgb(225, 221, 213);
+   display: inline-block;
+   padding: 5px;
+   margin: 5px;
+   border: 5px solid rgb(144, 131, 173);
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.info-title{
+   margin-bottom: 15px;
+}
+
+.House, .Tree, .Library, .Road, .View {
+   border: 5px solid rgb(144, 131, 173);
+   display: inline-block;
+   width: 287.8px;
+  
+}
+
+.container {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+}
+button {
+   border-radius: 10px;
+   border: none;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 2;
+   background-color: rgb(179, 210, 210);
+   color: rgb(147, 11, 11);
+   padding: 5px;
+   align-self: center;
+}
+button:hover {
+   background-color: rgb(209, 140, 202);
+   color: rgb(205, 122, 122); 
+}
+
+.logo{
+color: var(--Base-colors-Primary, #F32ED7);
+text-shadow: 0px 4.813px 4.813px rgba(0, 0, 0, 0.10);
+font-family: Merienda;
+font-size: 57.758px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+.main-title{
+color: #FFF;
+text-shadow: 0px 4px 80px rgba(0, 0, 0, 0.55);
+font-family: "Roboto Condensed";
+font-size: 117.624px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+text-align: center;
+}
+
+.main-info{
+color: #5e0202;
+font-family: "Roboto Condensed";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.Home{
+   border-radius: 12px;
+   border: 16px solid rgba(255, 255, 255, 0.08);
+   background: url(<path-to-image>), lightgray -0.02px 0px / 100.01% 449.522% no-repeat;
+   box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.55);
+   backdrop-filter: blur(10px);
+   max-width: 100%;
+}
